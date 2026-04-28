@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DM Setting Playbook · For Kit · AG1</title>
+<meta name="description" content="DM Setting Playbook — built for Kit Esuruoso by AG1 Consulting.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="DM Setting Playbook · For Kit">
+<meta property="og:description" content="Part of the funnel audit + 90-day install plan built for @stayslickwithkit by AG1 Consulting.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://andrei170.github.io/stayslickwithkit-hub/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-back"><span class="arrow">&larr;</span> Back to Hub</a>
+    <span class="nav-title">For Kit · AG1</span>
+  </div>
+</nav>
+
+<article class="doc">
+  <header class="doc-header">
+    <span class="doc-tag">Phase 1</span>
+    <h1>DM Setting Playbook — Fixing the 4/9 Cancel Rate</h1>
+  </header>
+
+  
+<blockquote>
+<p>The 44% cancellation rate is a calendar problem first, a setter problem second. This playbook fixes both. Designed to be handed to whoever is running DMs / inbound for Kit.</p>
+</blockquote>
+<hr />
+<h2>The Diagnosis (Why 4 of 9 Cancel)</h2>
+<p>A 44% cancel rate doesn't come from one cause. It comes from three small leaks compounding:</p>
+<ol>
+<li><strong>The form doesn't book the call.</strong> Prospect submits. Time passes. Someone reaches out manually 6-24 hours later. By then, the prospect has cooled, gone on holiday, or remembered they were going to ghost.</li>
+<li><strong>No pre-call nurture.</strong> Once a call is booked, there's no value-add between "booking" and "call" — so the prospect doesn't build commitment to showing up.</li>
+<li><strong>The setter (if there is one) is pitching, not protecting the slot.</strong> Setting calls has one job: confirm fit, protect the calendar slot, do not pitch. If the setter is selling, the prospect is half-sold and pre-objecting before the call.</li>
+</ol>
+<p>Each leak alone costs 10-15% of bookings. Stack them and you get 44% cancellations.</p>
+<hr />
+<h2>The Three-Layer Fix</h2>
+<h3>Layer 1 — Form-to-Calendar in One Click</h3>
+<p><strong>Current:</strong> Prospect fills out application → form submits → prospect waits → setter reaches out manually → prospect picks a time.</p>
+<p><strong>New:</strong> Prospect fills out application → form submits → IMMEDIATELY shows Calendly slot picker on the same page → prospect picks time → confirmation email auto-sent.</p>
+<p><strong>Implementation options:</strong></p>
+<ul>
+<li><strong>Option A (cleanest):</strong> Replace the application Typeform with a Tally form or a custom-coded form that has a "thank you" page hosting the Calendly embed.</li>
+<li><strong>Option B (fastest):</strong> Keep the Typeform, change the redirect URL to a <code>/book-call</code> page that has the Calendly embed.</li>
+<li><strong>Option C (luxury):</strong> Use a tool like <a href="https://savvycal.com/">SavvyCal</a> or Cal.com inline-embedded after form submit. Cleaner UX than Calendly.</li>
+</ul>
+<p>Recommended: Option B. Two-week install max. No platform migration.</p>
+<p><strong>Calendly settings:</strong>
+- Buffer: 15 min before, 15 min after
+- Notice: minimum 12 hours in advance (gives time for the pre-call sequence to land)
+- Available slots: 4-6 per week, clustered (e.g. Tue-Thu, 2pm-6pm London)
+- Required questions on booking: phone number (for SMS reminder), one screening question
+- Auto-confirmation email: ON, with a 90-second video from Kit (see Layer 2)</p>
+<h3>Layer 2 — Pre-Call Nurture Sequence</h3>
+<p>Between booking and the call, three touches:</p>
+<h4>Touch 1 — T-0 (the moment they book)</h4>
+<p><strong>Channel:</strong> Email + Calendly auto-confirmation
+<strong>Content:</strong> 60-90 second video from Kit, embedded.</p>
+<p>Video script:</p>
+<blockquote>
+<p>"Hey — Kit here. Saw your application come through. Looking forward to our call on [date].</p>
+<p>Quick thing before we talk. I want to make this useful for you, not just useful for me. So between now and then, just have a think about three things:</p>
+<p>One — what does the relationship you actually want look like? Specifics. Not 'a good guy.' What does a Tuesday night with him look like.</p>
+<p>Two — what's been the gap between that and what you've been finding? Be honest with yourself.</p>
+<p>Three — what do you think is in the way?</p>
+<p>Bring those answers to the call. I'll show you what I see, and we'll figure out together if what I do is the right vehicle for getting you there.</p>
+<p>See you on the [date]."</p>
+</blockquote>
+<p>That video alone increases show rate by 15-25%. Reason: she's now seen Kit's face and voice before the call. She's committed.</p>
+<h4>Touch 2 — T-1 day</h4>
+<p><strong>Channel:</strong> Email
+<strong>Content:</strong> A real client story, 250-400 words. Names a specific case study (real client, with permission), a real timeline, a real outcome. Closes with: "see you tomorrow."</p>
+<p>Template:</p>
+<blockquote>
+<p>Subject: Real story before tomorrow</p>
+<p>Quick one before our call tomorrow.</p>
+<p>Wanted to share a story because I think it might be relevant.</p>
+<p>[Client first name] came to me [X] months ago. She was [age], running [type of business], single for [time]. Specifically she'd been on a run of guys who were either intimidated by her career or trying to compete with it. She was tired. She'd done all the apps, done the friend setups, done the "just put yourself out there" advice. None of it worked.</p>
+<p>We started in [month]. By [month], she was [outcome]. By [month + X], she was [outcome 2].</p>
+<p>The thing that changed wasn't the volume of dates. It was the screen. She stopped accepting first dates that didn't pass a 10-minute fit check. Within six weeks, the type of man showing up was completely different.</p>
+<p>Tomorrow, that's the kind of work we'll be talking about — what does YOUR version of that look like.</p>
+<p>See you at [time].</p>
+<p>— Kit</p>
+</blockquote>
+<h4>Touch 3 — T-morning (day of)</h4>
+<p><strong>Channel:</strong> SMS
+<strong>Content:</strong> Short. "Hey [name] — Kit here. Looking forward to our chat at [time] today. Link is [Zoom/Meet]. See you in a bit."</p>
+<p>SMS show-rate impact: +20% on top of email. Use it.</p>
+<hr />
+<h3>Layer 3 — Setter Playbook (If Kit Keeps a Setter)</h3>
+<p>If a setter is involved in qualifying inbound (DMs, form leads), they need rules. The current motion sounds unstructured.</p>
+<h4>The Setter's Single Job</h4>
+<p><strong>Confirm fit. Protect the calendar slot. Do not pitch.</strong></p>
+<p>Anything beyond those three is the setter doing Kit's job and doing it worse.</p>
+<h4>The Three Qualifying Questions</h4>
+<p>After someone DMs interest or fills out a form, the setter asks ONLY:</p>
+<ol>
+<li>"What kind of relationship are you actually looking for?" (intent check)</li>
+<li>"What have you tried so far that hasn't worked?" (pain check)</li>
+<li>"What's making you reach out now, vs. six months ago or six months from now?" (urgency check)</li>
+</ol>
+<p>If the answers are decent, the setter says: "Sounds like Kit is the right person to talk to. Here's the calendar — pick a time."</p>
+<p>That's it. No pitching. No price discussion. No "let me tell you about the program."</p>
+<h4>What the Setter Should NEVER Do</h4>
+<ul>
+<li>Quote price</li>
+<li>Describe the program in detail</li>
+<li>Sell features</li>
+<li>"Convince" a hesitant lead — let them book or move on</li>
+<li>Promise outcomes</li>
+<li>Argue with objections — note the objection, send the calendar anyway, let Kit handle it on the call</li>
+</ul>
+<h4>What the Setter SHOULD Do</h4>
+<ul>
+<li>Reply within 1 hour during business hours, 4 hours otherwise</li>
+<li>Use first-name personalisation</li>
+<li>Be direct, warm, not chirpy</li>
+<li>Send the calendar link with a one-line cue: "Pick a time that works — Kit's blocked these slots out for serious applications this week"</li>
+<li>After booking, hand off to the automated nurture sequence</li>
+</ul>
+<hr />
+<h2>DM Templates (For Inbound Conversation)</h2>
+<p>These replace whatever the setter is currently using. They're calibrated to Kit's voice.</p>
+<h3>Template 1 — Inbound from Reel/Comment Engagement</h3>
+<blockquote>
+<p>"Thanks for the message [name].</p>
+<p>Quick one — what's actually going on for you in your dating life right now?</p>
+<p>No long story needed. Just a sentence or two on where you're at."</p>
+</blockquote>
+<p>Wait for response. Listen. Then:</p>
+<blockquote>
+<p>"Got it. Sounds like you're at the point where you've tried the standard advice and you're done playing the volume game.</p>
+<p>Kit takes on a small number of 1:1 women each month. If you want to talk to him directly, here's the application — takes 4 minutes, then you can pick a time that works:</p>
+<p>[APPLICATION LINK]</p>
+<p>If you're not at that stage, no worries — there's a course at slickwithkit.com that might be the better entry point."</p>
+</blockquote>
+<h3>Template 2 — Form Submitted, No Calendar Yet (Recovery for Existing Pipeline)</h3>
+<blockquote>
+<p>"[Name] — saw your application come through. Took a quick look.</p>
+<p>Want to get you in with Kit this week. Here's his calendar — pick a time:</p>
+<p>[CALENDLY LINK]</p>
+<p>Answer a couple of questions before you book if you can — helps Kit show up prepared for you."</p>
+</blockquote>
+<h3>Template 3 — Booked but Quiet (24h Before Call)</h3>
+<blockquote>
+<p>"[Name] — confirming you for [time] tomorrow with Kit.</p>
+<p>Link is [Zoom/Meet link].</p>
+<p>If anything's changed and you need to reschedule, send me a message — much easier than no-showing."</p>
+</blockquote>
+<h3>Template 4 — Cancelled / Rescheduled</h3>
+<blockquote>
+<p>"[Name] — no problem at all on the reschedule.</p>
+<p>Here's the calendar with this week and next:</p>
+<p>[CALENDLY LINK]</p>
+<p>Want to get this sorted for you."</p>
+</blockquote>
+<h3>Template 5 — Ghost Recovery (3 Days After No-Show)</h3>
+<blockquote>
+<p>"[Name] — noticed you missed the call last [day]. No drama.</p>
+<p>If timing's just rough right now, send me a message and we'll find a slot that actually works.</p>
+<p>If you're rethinking it, also fine — would just rather know than wonder."</p>
+</blockquote>
+<hr />
+<h2>Show Rate Targets</h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Current (estimated)</th>
+<th>Target after fixes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application → Calendar booked</td>
+<td>unknown, probably &lt;50%</td>
+<td>80%+ (one-click)</td>
+</tr>
+<tr>
+<td>Booked → Held</td>
+<td>56% (5/9)</td>
+<td>80%+</td>
+</tr>
+<tr>
+<td>Held → Closed</td>
+<td>unknown</td>
+<td>unchanged (Kit's job, not the playbook's)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Net effect:</strong> Same top-of-funnel volume. ~50% more held calls per month. Same close rate = ~50% more closed deals per month.</p>
+<hr />
+<h2>What This Looks Like When It's Working</h2>
+<p>A prospect's journey, end-to-end:</p>
+<ol>
+<li>Sees a reel. Comments or DMs.</li>
+<li>Setter responds within 1 hour with two qualifying questions.</li>
+<li>Setter sends application link.</li>
+<li>Prospect fills out application (4 min).</li>
+<li>Form submit auto-redirects to Calendly slot picker.</li>
+<li>Prospect picks Wednesday at 3pm.</li>
+<li>Confirmation email + 90-sec Kit video lands within 60 seconds.</li>
+<li>Tuesday afternoon: case study email lands.</li>
+<li>Wednesday 9am: SMS reminder lands.</li>
+<li>Wednesday 3pm: prospect shows up. Already trusts Kit. Already done the homework.</li>
+<li>Kit closes 1 in 2-3.</li>
+</ol>
+<p>That's the shape of an 80% show rate funnel. None of it is rocket science. All of it is missing today.</p>
+
+  <footer class="doc-footer">
+    <a href="index.html" class="doc-footer-link">Back to Hub</a>
+    <div class="doc-meta">Prepared 2026-04-28 &middot; Built for @stayslickwithkit</div>
+  </footer>
+</article>
+
+</body>
+</html>

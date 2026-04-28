@@ -3,8 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stay Slick with Kit — 1:1 Coaching for Career-Built Women</title>
+<title>Stay Slick with Kit · 1:1 Coaching for Career-Built Women</title>
 <meta name="description" content="Privately coached. London. By application. 12 weeks of 1:1 work for women whose dating lives don't match the rest of their lives.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Stay Slick with Kit · 1:1 Coaching by Application">
+<meta property="og:description" content="12 weeks of private work for women whose dating lives don't match the rest of their lives.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://andrei170.github.io/stayslickwithkit-landing/">
+<meta property="og:image" content="https://andrei170.github.io/stayslickwithkit-hub/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -148,12 +156,21 @@
   }
   .vsl-placeholder {
     text-align: center;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     font-size: 14px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 32px;
   }
-  .vsl-placeholder strong { color: var(--gold); display: block; margin-bottom: 8px; font-size: 18px; }
+  .vsl-placeholder strong {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0;
+  }
   .trust-bar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -273,17 +290,50 @@
   .about-photo {
     aspect-ratio: 4 / 5;
     border-radius: 3px;
-    background: linear-gradient(135deg, var(--bg-elev), rgba(28, 24, 20, 0.4));
+    background:
+      radial-gradient(circle at 30% 20%, rgba(212, 175, 108, 0.14), transparent 55%),
+      linear-gradient(160deg, #14110f 0%, #0a0908 100%);
     border: 1px solid var(--border-strong);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--text-muted);
-    font-size: 12px;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
     text-align: center;
     padding: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .about-photo::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity: 0.5;
+  }
+  .about-photo .monogram {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 130px;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 12px;
+    letter-spacing: -0.04em;
+  }
+  .about-photo .name {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+  }
+  .about-photo .role {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 6px;
   }
   .about-content h2 { margin-bottom: 24px; }
   .about-content p { font-size: 16px; color: var(--text-secondary); margin-bottom: 18px; line-height: 1.7; }
@@ -426,15 +476,22 @@
   }
   .form-placeholder {
     text-align: center;
-    padding: 80px 20px;
-    color: var(--text-muted);
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    border: 1px dashed var(--border-strong);
+    padding: 60px 20px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    border: 1px solid var(--border);
     border-radius: 2px;
   }
-  .form-placeholder strong { display: block; color: var(--gold); font-size: 16px; margin-bottom: 12px; letter-spacing: 0.06em; }
+  .form-placeholder strong {
+    font-family: 'Cormorant Garamond', serif;
+    display: block;
+    color: var(--gold);
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+  }
   .closing-line {
     text-align: center;
     padding: 80px 0;
@@ -495,8 +552,8 @@
 
     <div class="vsl-frame">
       <div class="vsl-placeholder">
-        <strong>VSL EMBED</strong>
-        4-MINUTE WALKTHROUGH FROM KIT
+        <strong>A Word From Kit</strong>
+        Four minutes &middot; Watch before applying
       </div>
     </div>
 
@@ -520,7 +577,7 @@
 <section class="reveal">
   <div class="container">
     <div class="section-label">Who This Is For</div>
-    <h2 class="section-title">If you've optimised every other part of your life, <em>and dating is the one corner that's still chaos</em> — keep reading.</h2>
+    <h2 class="section-title">If you've optimised every other part of your life, <em>and dating is the one corner that's still chaos.</em></h2>
     <p class="section-lead">The standard dating advice online is built for the woman who hasn't built her life yet. You're past that. You don't need 'put yourself out there.' You need a system that matches the level you're already operating at.</p>
 
     <div class="who-grid">
@@ -573,13 +630,15 @@
   <div class="container">
     <div class="about-section">
       <div class="about-photo">
-        EDITORIAL PORTRAIT<br>OF KIT<br>(REPLACE WITH REAL IMAGE)
+        <div class="monogram">K</div>
+        <div class="name">Kit Esuruoso</div>
+        <div class="role">London &middot; By application</div>
       </div>
       <div class="about-content">
         <div class="section-label">About Kit</div>
         <h2>The work I do isn't dating advice. <em>It's how to date as well as you live.</em></h2>
-        <p>I'm Kit Esuruoso. I'm an actor by training. West End, screen, voice. I've spent the last few years working privately with a small number of women each year — founders, senior operators, doctors, lawyers — who'd built every other part of their lives and were tired of dating being the corner they couldn't crack.</p>
-        <p>What I do isn't motivation. It isn't pickup. It's strategic, considered, and structured. <strong>You don't need more dates. You need fewer, better ones — and the screen to know which is which.</strong></p>
+        <p>I'm Kit Esuruoso. I'm an actor by training. West End, screen, voice. I've spent the last few years working privately with a small number of women each year. Founders, senior operators, doctors, lawyers, who'd built every other part of their lives and were tired of dating being the corner they couldn't crack.</p>
+        <p>What I do isn't motivation. It isn't pickup. It's strategic, considered, and structured. <strong>You don't need more dates. You need fewer, better ones, and the screen to know which is which.</strong></p>
         <p>If that sounds like the conversation you've been waiting to have, fill out the application below.</p>
 
         <div class="credit-list">
@@ -609,34 +668,17 @@
   <div class="container">
     <div class="testimonial">
       <p class="testimonial-quote">Kit has this superb way of telling you all the hard truths you need to know but delivering them in a gentle manner. The course is digestible, considered, and based on real research, not slogans.</p>
-      <div class="testimonial-meta">— Verified Trustpilot Review · 4.6 ★ · 100% Five Star</div>
+      <div class="testimonial-meta">Verified Trustpilot Review · 4.6 ★ · 100% Five Star</div>
     </div>
   </div>
 </section>
 
 <section class="reveal">
   <div class="container">
-    <div class="section-label">Real Outcomes</div>
-    <h2 class="section-title">The work compounds <em>quietly.</em></h2>
-    <p class="section-lead">A handful of recent client outcomes. Names changed where requested.</p>
-
-    <div class="results-grid">
-      <div class="result-card">
-        <div class="meta">38, Founder, London</div>
-        <div class="outcome">Three years single while running her business → engaged in eight months.</div>
-        <div class="desc">"The thing that changed wasn't the volume of dates. It was the screen. Within six weeks, the type of man showing up was completely different."</div>
-      </div>
-      <div class="result-card">
-        <div class="meta">34, Senior Strategist, NYC</div>
-        <div class="outcome">Walked away from a 'good on paper' partner she'd been doubting for a year.</div>
-        <div class="desc">"I didn't realise how much I'd been negotiating myself down. Three weeks of work undid five years of habit."</div>
-      </div>
-      <div class="result-card">
-        <div class="meta">41, Surgeon, London</div>
-        <div class="outcome">First serious relationship in over six years.</div>
-        <div class="desc">"I came in expecting to be told to lower my standards. The opposite happened. He showed me what mine actually were."</div>
-      </div>
-    </div>
+    <div class="section-label">A Note On Outcomes</div>
+    <h2 class="section-title">I don't broadcast client stories <em>on a public page.</em></h2>
+    <p class="section-lead" style="max-width: 720px;">The work I do is private, considered, and discussed under confidentiality. On the application call I'll walk you through specific cases and outcomes that match where you are. A few public reviews on Trustpilot are below. The rest is reserved for women who've earned the introduction.</p>
+    <p style="font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); margin-top: 32px;">Trustpilot &middot; 4.6 &#9733; &middot; 100% Five Star</p>
   </div>
 </section>
 
@@ -664,7 +706,7 @@
           <span>What if I'm not based in London?</span>
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">All sessions run on Zoom. Half my clients are outside London — UK regional, US East and West Coast, Europe.</div>
+        <div class="faq-answer">All sessions run on Zoom. Half my clients are outside London. UK regional, US East and West Coast, Europe.</div>
       </div>
       <div class="faq-item" onclick="toggleFAQ(this)">
         <div class="faq-question">
@@ -678,7 +720,7 @@
           <span>What if I've worked with a coach before and it didn't help?</span>
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">Tell me on the call what didn't work. Most coaching in this space sells motivation. The work I do is structural — different mechanism, different outcome. I'll be honest with you about whether what I do is the right vehicle for where you're at now.</div>
+        <div class="faq-answer">Tell me on the call what didn't work. Most coaching in this space sells motivation. The work I do is structural. Different mechanism, different outcome. I'll be honest with you about whether what I do is the right vehicle for where you're at now.</div>
       </div>
       <div class="faq-item" onclick="toggleFAQ(this)">
         <div class="faq-question">
@@ -693,15 +735,13 @@
 
 <section class="application-cta" id="apply">
   <div class="container">
-    <h2 class="section-title" style="margin: 0 auto 24px;">If this is the conversation you've been <em>waiting to have</em> — start here.</h2>
+    <h2 class="section-title" style="margin: 0 auto 24px;">If this is the conversation you've been <em>waiting to have.</em> Start here.</h2>
     <p>Application takes four minutes. After you submit, you'll pick a time directly from my calendar. No back and forth. No setter calls. Straight to a conversation with me.</p>
 
     <div class="form-frame">
       <div class="form-placeholder">
-        <strong>APPLICATION FORM</strong>
-        EMBEDDED HERE<br>
-        ↓<br>
-        AUTO-REDIRECT TO CALENDLY ON SUBMIT
+        <strong>Application Form</strong>
+        Four-minute form &middot; Direct calendar handoff on submit
       </div>
     </div>
   </div>

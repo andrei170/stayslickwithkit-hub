@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg1" cx="20%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#1a1612" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#050506" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bg2" cx="85%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#2a1f10" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#050506" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af6c" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#d4af6c" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#d4af6c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#050506"/>
+  <rect width="1200" height="630" fill="url(#bg1)"/>
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+
+  <text x="80" y="120" font-family="Inter, sans-serif" font-size="14" font-weight="600" letter-spacing="6" fill="#d4af6c">PREPARED FOR KIT &middot; AG1 CONSULTING</text>
+
+  <text x="80" y="260" font-family="Georgia, serif" font-size="76" font-weight="500" fill="#ece9e3">Funnel Audit</text>
+  <text x="80" y="350" font-family="Georgia, serif" font-size="76" font-weight="500" fill="#ece9e3">+ 90-Day Install Plan</text>
+
+  <rect x="80" y="395" width="280" height="2" fill="url(#goldLine)"/>
+
+  <text x="80" y="450" font-family="Inter, sans-serif" font-size="22" fill="#a09c93">Three bottlenecks. Nine deliverables.</text>
+  <text x="80" y="485" font-family="Inter, sans-serif" font-size="22" fill="#a09c93">A clear path from where you are to a 30-50% lift.</text>
+
+  <text x="80" y="580" font-family="Georgia, serif" font-size="20" font-style="italic" fill="#d4af6c">For @stayslickwithkit</text>
+</svg>
