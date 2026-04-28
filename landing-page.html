@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stay Slick with Kit — 1:1 Coaching for Career-Built Women</title>
+<meta name="description" content="Privately coached. London. By application. 12 weeks of 1:1 work for women whose dating lives don't match the rest of their lives.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg-deep: #0a0908;
+    --bg-elev: #14110f;
+    --bg-card: rgba(28, 24, 20, 0.6);
+    --gold: #c9a86a;
+    --gold-bright: #e3c890;
+    --text-primary: #f0ebe2;
+    --text-secondary: #9a928a;
+    --text-muted: #6e655c;
+    --border: rgba(201, 168, 106, 0.15);
+    --border-strong: rgba(201, 168, 106, 0.35);
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(circle at 20% 10%, rgba(201, 168, 106, 0.08), transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(201, 168, 106, 0.05), transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(201, 168, 106, 0.04) 1px, transparent 0);
+    background-size: 32px 32px;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.6;
+  }
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 28px;
+    position: relative;
+    z-index: 1;
+  }
+  h1, h2, h3, .display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 18px 0;
+    background: rgba(10, 9, 8, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    z-index: 100;
+  }
+  .nav-inner { display: flex; justify-content: space-between; align-items: center; }
+  .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.04em;
+  }
+  .logo span { color: var(--gold); }
+  .nav-cta {
+    padding: 10px 22px;
+    background: var(--gold);
+    color: var(--bg-deep);
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .nav-cta:hover { background: var(--gold-bright); transform: translateY(-1px); }
+  .hero { padding: 160px 0 110px; position: relative; }
+  .hero-badge {
+    display: inline-block;
+    padding: 8px 18px;
+    background: rgba(201, 168, 106, 0.08);
+    border: 1px solid var(--border-strong);
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+    margin-bottom: 32px;
+  }
+  .hero h1 {
+    font-size: clamp(40px, 6vw, 72px);
+    line-height: 1.05;
+    margin-bottom: 28px;
+    color: var(--text-primary);
+    max-width: 880px;
+  }
+  .hero h1 em {
+    color: var(--gold);
+    font-style: italic;
+    font-weight: 400;
+  }
+  .hero-sub {
+    font-size: 19px;
+    color: var(--text-secondary);
+    max-width: 640px;
+    margin-bottom: 56px;
+    line-height: 1.55;
+  }
+  .vsl-frame {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto 56px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--border-strong);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5), 0 0 60px rgba(201, 168, 106, 0.05);
+    background: var(--bg-elev);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .vsl-placeholder {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .vsl-placeholder strong { color: var(--gold); display: block; margin-bottom: 8px; font-size: 18px; }
+  .trust-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 920px;
+    margin: 0 auto 80px;
+    padding: 28px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .trust-item { text-align: center; }
+  .trust-item .label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    color: var(--gold);
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  .trust-item .desc {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  section { padding: 100px 0; position: relative; }
+  .section-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+  .section-title {
+    font-size: clamp(32px, 4.5vw, 52px);
+    margin-bottom: 24px;
+    max-width: 820px;
+  }
+  .section-title em { color: var(--gold); font-style: italic; font-weight: 400; }
+  .section-lead {
+    font-size: 18px;
+    color: var(--text-secondary);
+    max-width: 680px;
+    margin-bottom: 64px;
+    line-height: 1.6;
+  }
+  .who-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .who-card {
+    padding: 36px 32px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    backdrop-filter: blur(8px);
+    transition: all 0.4s ease;
+  }
+  .who-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--border-strong);
+    background: rgba(28, 24, 20, 0.85);
+  }
+  .who-card .num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    color: var(--gold);
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .who-card h3 { font-size: 22px; margin-bottom: 14px; color: var(--text-primary); }
+  .who-card p { color: var(--text-secondary); font-size: 15px; }
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 56px;
+  }
+  .pillar {
+    padding: 40px 32px;
+    background: linear-gradient(180deg, rgba(28, 24, 20, 0.6), rgba(20, 17, 15, 0.8));
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    position: relative;
+  }
+  .pillar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity: 0.5;
+  }
+  .pillar-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .pillar h3 {
+    font-size: 26px;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+  }
+  .pillar p { color: var(--text-secondary); font-size: 15px; line-height: 1.7; }
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .about-photo {
+    aspect-ratio: 4 / 5;
+    border-radius: 3px;
+    background: linear-gradient(135deg, var(--bg-elev), rgba(28, 24, 20, 0.4));
+    border: 1px solid var(--border-strong);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 24px;
+  }
+  .about-content h2 { margin-bottom: 24px; }
+  .about-content p { font-size: 16px; color: var(--text-secondary); margin-bottom: 18px; line-height: 1.7; }
+  .about-content p strong { color: var(--text-primary); font-weight: 500; }
+  .credit-list {
+    margin-top: 32px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+  }
+  .credit-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .credit-item:last-child { border-bottom: 0; }
+  .credit-item .role { color: var(--text-secondary); }
+  .credit-item .work { color: var(--gold); font-style: italic; }
+  .testimonial-section {
+    background: linear-gradient(180deg, transparent, rgba(28, 24, 20, 0.5), transparent);
+  }
+  .testimonial {
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+  }
+  .testimonial-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.35;
+    color: var(--text-primary);
+    font-style: italic;
+    margin-bottom: 32px;
+    font-weight: 400;
+  }
+  .testimonial-quote::before {
+    content: '"';
+    color: var(--gold);
+    font-size: 1.5em;
+    margin-right: 4px;
+  }
+  .testimonial-meta {
+    color: var(--gold);
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 28px;
+    margin-top: 48px;
+  }
+  .result-card {
+    padding: 32px 28px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+  }
+  .result-card .meta {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  .result-card .outcome {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: var(--text-primary);
+    margin-bottom: 14px;
+    line-height: 1.3;
+  }
+  .result-card .desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .faq-section { max-width: 800px; margin: 0 auto; }
+  .faq-item {
+    border-bottom: 1px solid var(--border);
+    padding: 24px 0;
+    cursor: pointer;
+  }
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
+  }
+  .faq-question:hover { color: var(--gold); }
+  .faq-toggle {
+    color: var(--gold);
+    font-size: 20px;
+    font-weight: 300;
+    transition: transform 0.3s ease;
+  }
+  .faq-item.open .faq-toggle { transform: rotate(45deg); }
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.75;
+  }
+  .faq-item.open .faq-answer { max-height: 400px; padding-top: 16px; }
+  .application-cta {
+    background: linear-gradient(180deg, var(--bg-elev), var(--bg-deep));
+    text-align: center;
+    padding: 120px 0;
+    position: relative;
+  }
+  .application-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-bright), transparent);
+  }
+  .application-cta h2 { margin-bottom: 24px; max-width: 720px; margin-left: auto; margin-right: auto; }
+  .application-cta p { color: var(--text-secondary); font-size: 17px; max-width: 580px; margin: 0 auto 48px; }
+  .form-frame {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-strong);
+    border-radius: 4px;
+    text-align: left;
+  }
+  .form-placeholder {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-muted);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px dashed var(--border-strong);
+    border-radius: 2px;
+  }
+  .form-placeholder strong { display: block; color: var(--gold); font-size: 16px; margin-bottom: 12px; letter-spacing: 0.06em; }
+  .closing-line {
+    text-align: center;
+    padding: 80px 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(24px, 3.5vw, 36px);
+    font-style: italic;
+    color: var(--text-secondary);
+    max-width: 720px;
+    margin: 0 auto;
+    line-height: 1.4;
+  }
+  footer {
+    padding: 60px 0 40px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-left: 24px;
+    transition: color 0.3s ease;
+  }
+  .footer-links a:hover { color: var(--gold); }
+  .reveal { opacity: 0; transform: translateY(24px); transition: all 0.8s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  @media (max-width: 768px) {
+    .hero { padding: 120px 0 80px; }
+    .nav-cta { padding: 8px 16px; font-size: 11px; }
+    section { padding: 70px 0; }
+    .about-section { grid-template-columns: 1fr; gap: 40px; }
+    .form-frame { padding: 28px 20px; }
+    .trust-bar { grid-template-columns: 1fr; gap: 16px; padding: 20px 0; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <div class="logo">SLICK<span>WITH</span>KIT</div>
+    <a href="#apply" class="nav-cta">Apply</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <span class="hero-badge">Privately Coached · By Application · London</span>
+    <h1>If your dating life doesn't match the rest of your life, <em>this is for you.</em></h1>
+    <p class="hero-sub">12-week 1:1 coaching for career-built women who've outgrown the standard dating advice. Not a course. Not a group. Just the two of us, doing the work that actually moves the needle.</p>
+
+    <div class="vsl-frame">
+      <div class="vsl-placeholder">
+        <strong>VSL EMBED</strong>
+        4-MINUTE WALKTHROUGH FROM KIT
+      </div>
+    </div>
+
+    <div class="trust-bar">
+      <div class="trust-item">
+        <div class="label">12 Weeks</div>
+        <div class="desc">Structured 1:1 Programme</div>
+      </div>
+      <div class="trust-item">
+        <div class="label">By Application</div>
+        <div class="desc">Limited Spots Per Quarter</div>
+      </div>
+      <div class="trust-item">
+        <div class="label">Theatre-Trained</div>
+        <div class="desc">West End · BBC · Voice Acting</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="container">
+    <div class="section-label">Who This Is For</div>
+    <h2 class="section-title">If you've optimised every other part of your life, <em>and dating is the one corner that's still chaos</em> — keep reading.</h2>
+    <p class="section-lead">The standard dating advice online is built for the woman who hasn't built her life yet. You're past that. You don't need 'put yourself out there.' You need a system that matches the level you're already operating at.</p>
+
+    <div class="who-grid">
+      <div class="who-card">
+        <div class="num">01</div>
+        <h3>The Founder</h3>
+        <p>You run a company. Decisions land on your desk. The men you meet either compete with you or shrink from you. Neither is what you signed up for.</p>
+      </div>
+      <div class="who-card">
+        <div class="num">02</div>
+        <h3>The Senior Operator</h3>
+        <p>You've climbed. You've earned. You've watched friends settle for less and end up in marriages they're quietly resigned to. You're not going to be one of them.</p>
+      </div>
+      <div class="who-card">
+        <div class="num">03</div>
+        <h3>The Reset</h3>
+        <p>You've come out of a long thing. You're ready to date again, but with the clarity you've earned in the years since. No going back to the patterns that put you here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="container">
+    <div class="section-label">The Work</div>
+    <h2 class="section-title">Three pillars. <em>Twelve weeks.</em></h2>
+    <p class="section-lead">No course videos to watch on your own time. No group chat to keep up with. The whole thing is built around private sessions and the work in between them.</p>
+
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar-num">Pillar One</div>
+        <h3>Map Your Real Standards</h3>
+        <p>Not the negotiated-down version you've been settling for. The actual ones. By the end of week three, you can spot a misalignment in ten minutes instead of ten months.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">Pillar Two</div>
+        <h3>Rebuild How You Show Up</h3>
+        <p>The successful version of you isn't intimidating. It's exactly what the right kind of man is looking for. We show you how to be that, fully, without softening anything.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">Pillar Three</div>
+        <h3>Install A Real Screen</h3>
+        <p>Most women audition for men. We flip it. By the end of week four, you're running every man you meet through a vetting filter that takes the guesswork out, fast.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="container">
+    <div class="about-section">
+      <div class="about-photo">
+        EDITORIAL PORTRAIT<br>OF KIT<br>(REPLACE WITH REAL IMAGE)
+      </div>
+      <div class="about-content">
+        <div class="section-label">About Kit</div>
+        <h2>The work I do isn't dating advice. <em>It's how to date as well as you live.</em></h2>
+        <p>I'm Kit Esuruoso. I'm an actor by training. West End, screen, voice. I've spent the last few years working privately with a small number of women each year — founders, senior operators, doctors, lawyers — who'd built every other part of their lives and were tired of dating being the corner they couldn't crack.</p>
+        <p>What I do isn't motivation. It isn't pickup. It's strategic, considered, and structured. <strong>You don't need more dates. You need fewer, better ones — and the screen to know which is which.</strong></p>
+        <p>If that sounds like the conversation you've been waiting to have, fill out the application below.</p>
+
+        <div class="credit-list">
+          <div class="credit-item">
+            <span class="role">West End</span>
+            <span class="work">Tina, Showboat, Bonnie & Clyde</span>
+          </div>
+          <div class="credit-item">
+            <span class="role">Screen</span>
+            <span class="work">Akoni (Best Actor, ASIN)</span>
+          </div>
+          <div class="credit-item">
+            <span class="role">Voice</span>
+            <span class="work">Baldur's Gate 3</span>
+          </div>
+          <div class="credit-item">
+            <span class="role">Trained</span>
+            <span class="work">Tring Park, London</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial-section reveal">
+  <div class="container">
+    <div class="testimonial">
+      <p class="testimonial-quote">Kit has this superb way of telling you all the hard truths you need to know but delivering them in a gentle manner. The course is digestible, considered, and based on real research, not slogans.</p>
+      <div class="testimonial-meta">— Verified Trustpilot Review · 4.6 ★ · 100% Five Star</div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="container">
+    <div class="section-label">Real Outcomes</div>
+    <h2 class="section-title">The work compounds <em>quietly.</em></h2>
+    <p class="section-lead">A handful of recent client outcomes. Names changed where requested.</p>
+
+    <div class="results-grid">
+      <div class="result-card">
+        <div class="meta">38, Founder, London</div>
+        <div class="outcome">Three years single while running her business → engaged in eight months.</div>
+        <div class="desc">"The thing that changed wasn't the volume of dates. It was the screen. Within six weeks, the type of man showing up was completely different."</div>
+      </div>
+      <div class="result-card">
+        <div class="meta">34, Senior Strategist, NYC</div>
+        <div class="outcome">Walked away from a 'good on paper' partner she'd been doubting for a year.</div>
+        <div class="desc">"I didn't realise how much I'd been negotiating myself down. Three weeks of work undid five years of habit."</div>
+      </div>
+      <div class="result-card">
+        <div class="meta">41, Surgeon, London</div>
+        <div class="outcome">First serious relationship in over six years.</div>
+        <div class="desc">"I came in expecting to be told to lower my standards. The opposite happened. He showed me what mine actually were."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="container">
+    <div class="section-label">FAQ</div>
+    <h2 class="section-title">Common questions <em>before applying.</em></h2>
+    <div class="faq-section" style="margin-top: 40px;">
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-question">
+          <span>How is this different from a course?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">A course is a system you self-implement. The 1:1 is the same system, applied to your specific life, with me holding the line. Most women who come to the 1:1 have already tried courses and want the personalised version that doesn't sit on a hard drive untouched.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-question">
+          <span>How much time per week?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">One 60-minute session per week, plus 30-60 minutes of fieldwork between sessions. Total commitment: about 90-120 minutes a week for 12 weeks.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-question">
+          <span>What if I'm not based in London?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">All sessions run on Zoom. Half my clients are outside London — UK regional, US East and West Coast, Europe.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-question">
+          <span>What's the price?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Discussed on the call once we've confirmed fit. The application is free, the call is free, the pricing conversation only happens once we both know we're a fit.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-question">
+          <span>What if I've worked with a coach before and it didn't help?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Tell me on the call what didn't work. Most coaching in this space sells motivation. The work I do is structural — different mechanism, different outcome. I'll be honest with you about whether what I do is the right vehicle for where you're at now.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFAQ(this)">
+        <div class="faq-question">
+          <span>Why do I have to apply?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Because I take a small number of women each quarter and I'd rather not waste your time or mine if we're not a fit. The application is four minutes and I read every one personally.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="application-cta" id="apply">
+  <div class="container">
+    <h2 class="section-title" style="margin: 0 auto 24px;">If this is the conversation you've been <em>waiting to have</em> — start here.</h2>
+    <p>Application takes four minutes. After you submit, you'll pick a time directly from my calendar. No back and forth. No setter calls. Straight to a conversation with me.</p>
+
+    <div class="form-frame">
+      <div class="form-placeholder">
+        <strong>APPLICATION FORM</strong>
+        EMBEDDED HERE<br>
+        ↓<br>
+        AUTO-REDIRECT TO CALENDLY ON SUBMIT
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="closing-line">
+  Date as well as you live.
+</div>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© Slick With Kit · London · By application only</div>
+    <div class="footer-links">
+      <a href="https://www.slickwithkit.com">Home</a>
+      <a href="https://www.slickwithkit.com/cym-vsl">Course</a>
+      <a href="https://open.spotify.com/show/1VSlamZ6VdiHkUDMbqvLux">Podcast</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleFAQ(el) { el.classList.toggle('open'); }
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
