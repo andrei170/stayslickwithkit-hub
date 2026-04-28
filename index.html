@@ -507,6 +507,63 @@
     flex-wrap: wrap;
     gap: 16px;
   }
+  .proof-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
+    margin-top: 40px;
+  }
+  .proof-shot {
+    position: relative;
+    display: block;
+    aspect-ratio: 4 / 3;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--border-strong);
+    background: linear-gradient(160deg, #14110f, #0a0908);
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .proof-shot:hover {
+    transform: translateY(-4px);
+    border-color: var(--gold);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.5), 0 0 30px rgba(212,175,108,0.08);
+  }
+  .proof-shot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+  .proof-fallback-content {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 32px 24px;
+  }
+  .proof-shot.proof-fallback .proof-fallback-content {
+    display: flex;
+  }
+  .proof-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(38px, 5vw, 56px);
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+  }
+  .proof-label {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
   .reveal {
     opacity: 0;
     transform: translateY(28px);
@@ -782,13 +839,64 @@
   </div>
 </section>
 
+<section class="reveal">
+  <div class="container">
+    <div class="section-label">Who Builds This</div>
+    <h2 class="section-title">AG1 Consulting. <em>One operator. Full-stack DFY.</em></h2>
+    <p class="section-lead">I run AG1 as a one-person agency. Funnels, ads, copy, VSLs, email, tech, all under one roof. No layered project managers, no fragmented freelancers, no retainer-and-pray. The numbers below are why a few coaches and creators have trusted me with the back end of their business.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 4px; margin-top: 40px;">
+      <div class="phase-card">
+        <div class="phase-num">Headline</div>
+        <h3 style="font-size: 26px;">$742K in 5.5 Months</h3>
+        <div class="phase-time">Single Client &middot; Oct 2025 to Mar 2026</div>
+        <p>Generated for a client under NDA. Whole funnel built and run by one person. 72% growth versus the prior period. Verified dashboard available on the call.</p>
+      </div>
+      <div class="phase-card">
+        <div class="phase-num">Build Speed</div>
+        <h3 style="font-size: 26px;">Hereafter Farms</h3>
+        <div class="phase-time">180K IG &middot; Zero to Live in Weeks</div>
+        <p>Built the complete monetisation system from scratch. Offer architecture, VSL, application flow, ManyChat, Skool community, GHL CRM, payment infra, email + SMS sequences, VA team. Multiple offer pivots managed inside the same engagement.</p>
+      </div>
+      <div class="phase-card">
+        <div class="phase-num">Aggregate</div>
+        <h3 style="font-size: 26px;">$1M+ Generated</h3>
+        <div class="phase-time">Across Clients &middot; Solo Operator</div>
+        <p>AI-leveraged, full-stack delivery. Revenue share aligned. I only win when the client wins, which is why every build gets treated like my own business.</p>
+      </div>
+    </div>
+
+    <div class="proof-gallery">
+      <a href="proof-revenue.png" class="proof-shot" target="_blank">
+        <img src="proof-revenue.png" alt="Client revenue dashboard: $742,715.59 total over 5.5 months, 72% growth" loading="lazy" onerror="this.parentElement.classList.add('proof-fallback'); this.style.display='none';">
+        <div class="proof-fallback-content">
+          <div class="proof-num">$742,715.59</div>
+          <div class="proof-label">Total Client Revenue &middot; Oct 2025 to Mar 2026 &middot; +72%</div>
+        </div>
+      </a>
+      <a href="proof-stripe.png" class="proof-shot" target="_blank">
+        <img src="proof-stripe.png" alt="Stripe gross volume: $331K, 101% growth" loading="lazy" onerror="this.parentElement.classList.add('proof-fallback'); this.style.display='none';">
+        <div class="proof-fallback-content">
+          <div class="proof-num">$331K</div>
+          <div class="proof-label">Stripe Gross Volume &middot; Same Window &middot; +101%</div>
+        </div>
+      </a>
+    </div>
+
+    <div style="max-width: 760px; margin: 56px auto 0; padding: 40px; background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 4px; text-align: center;">
+      <p style="font-family: 'Cormorant Garamond', serif; font-size: 26px; font-style: italic; color: var(--text-primary); line-height: 1.4; margin-bottom: 20px;">"He's sharp, he's on time, he works very quickly. If there's a problem, he's already solved it."</p>
+      <div style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold);">Said by three separate clients during fulfilment</div>
+    </div>
+  </div>
+</section>
+
 <section class="cta-section reveal" id="book">
   <div class="container">
     <div class="section-label">Next Step</div>
     <h2 class="section-title">Walk through this together?</h2>
     <p>Easiest way is a 30-minute working session. We pick which phases to install, what you want hands-off vs. hands-on, and we scope it from there. You keep filming. We plumb the back end.</p>
 
-    <a href="https://calendly.com/andrei-ag1/strategy" class="cta-button">Book the Working Session</a>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-button">Book the Working Session</a>
     <a href="mailto:andreigivero@gmail.com" class="cta-secondary">Or just reply to my email</a>
   </div>
 </section>
