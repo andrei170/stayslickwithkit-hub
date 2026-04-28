@@ -1,4 +1,4 @@
-# Content Strategy — Pivoting to Wealthier Demos
+# Content Strategy - Pivoting to Wealthier Demos
 
 > The brief: keep the viral engine, add a second content track that pulls 30-45 professional women with budget. 90-day plan, hook bank, podcast pivot, photoshoot brief.
 
@@ -16,7 +16,7 @@ Run two content tracks in parallel. Keep the viral track for top-of-funnel reach
 
 ## The Two-Track Model
 
-### Track A — Viral / Top of Funnel (KEEP)
+### Track A - Viral / Top of Funnel (KEEP)
 
 **Audience:** Women 22-32, single 6-18 months, app-fatigued, frustrated with situationships.
 **Function:** Volume reach. Drives membership and course buyers.
@@ -30,7 +30,7 @@ Run two content tracks in parallel. Keep the viral track for top-of-funnel reach
 
 This track funds the rest. Don't kill it. Don't dilute it.
 
-### Track B — Wealth / High-Ticket Pull (NEW)
+### Track B - Wealth / High-Ticket Pull (NEW)
 
 **Audience:** Women 30-45, career-built (founders, lawyers, doctors, ex-corporate, senior IC), single 12+ months by choice or circumstance.
 **Function:** Pulls $4K 1:1 buyers. Lower volume, higher conversion-per-view.
@@ -64,8 +64,8 @@ These are tested-pattern hooks rebuilt for the 30-45 professional woman. Use the
 
 ### Story / mechanism hooks
 
-13. "How one of my clients went from three years single while running a business to engaged in eight months — without lowering a single standard."
-14. "I worked with a surgeon last year. Three weeks in, she'd already cut her dating chaos by 60% — without going on a single new date."
+13. "How one of my clients went from three years single while running a business to engaged in eight months - without lowering a single standard."
+14. "I worked with a surgeon last year. Three weeks in, she'd already cut her dating chaos by 60% - without going on a single new date."
 15. "The 10-minute fit check that takes the guesswork out of a first date."
 16. "If you're not running men through a screening process, you're auditioning for them."
 17. "What changes when a woman with a career stops dating like a 22-year-old: the men get serious within weeks."
@@ -74,7 +74,7 @@ These are tested-pattern hooks rebuilt for the 30-45 professional woman. Use the
 
 18. "The men dating up are the ones who'll go the distance. The ones dating across? Watch out."
 19. "If a man doesn't like the most successful version of you, he wasn't dating you in the first place."
-20. "Most men can't keep up. The ones who can — won't tell you. They'll show you. That's the screen."
+20. "Most men can't keep up. The ones who can - won't tell you. They'll show you. That's the screen."
 
 ### Counter-positioning hooks (against entry-level dating advice)
 
@@ -88,7 +88,7 @@ These are tested-pattern hooks rebuilt for the 30-45 professional woman. Use the
 
 ### Current state
 
-Kit's podcast ("Stay Slick with Kit") is heavy on same-tier creators. Recent guests: "Tamara," "Mel," "MrMoneyJar," "Yasmine." Format works, conversation is good — but the guests pull a same-tier audience.
+Kit's podcast ("Stay Slick with Kit") is heavy on same-tier creators. Recent guests: "Tamara," "Mel," "MrMoneyJar," "Yasmine." Format works, conversation is good - but the guests pull a same-tier audience.
 
 ### What changes
 
@@ -103,11 +103,11 @@ These guests do three things at once:
 
 - Female, 30-45
 - Career-built (visible role, real audience or real org)
-- 10K-150K social followers (sweet spot — big enough to bring an audience, not so big they have agents/PR teams)
+- 10K-150K social followers (sweet spot - big enough to bring an audience, not so big they have agents/PR teams)
 - Vocal about dating / relationships either humorously or seriously (so the conversation has substance)
 - UK or US bases preferred (timezone, legal jurisdiction for high-ticket buyers)
 
-### Sample target list (build this out — 50 names)
+### Sample target list (build this out - 50 names)
 
 - Female founders 30-45 in London who post about dating
 - Hosts of women-targeted podcasts
@@ -120,7 +120,7 @@ Instead of "let's talk about dating," frame as:
 
 - "What it's like to date when you're running a company"
 - "The dating standards I've earned vs. the standards I was told to have"
-- "Why successful women are choosing to be alone — and when that's a mistake"
+- "Why successful women are choosing to be alone - and when that's a mistake"
 - "Reset your dating life in your thirties"
 
 Each episode title is also a Track B hook.
@@ -197,7 +197,7 @@ Replace internal positioning with:
 
 > "I work with women whose dating lives don't match the rest of their lives."
 
-That's the line. Use it everywhere — VSL, bio, About page, press intros.
+That's the line. Use it everywhere - VSL, bio, About page, press intros.
 
 ---
 

@@ -1,4 +1,4 @@
-# Revenue Estimate — Kit Esuruoso (@stayslickwithkit)
+# Revenue Estimate - Kit Esuruoso (@stayslickwithkit)
 
 > **Internal note. Do not share with Kit.** Used for sizing the pitch and projecting impact.
 
@@ -77,7 +77,7 @@ This is a **fixable mid-sized creator**, not a huge whale.
 - A $15-25K one-time install (VSL + funnel + content shift) is a no-brainer if you can show 30-50% revenue lift in 90 days.
 - The math works on impact alone: a single extra $4K close per month covers a $5K retainer twice over.
 
-**Don't oversell.** The pitch is "you have a $200K business with $400-500K mechanics already in place — you just need the plumbing." That's an honest read. It's also exactly the right size to close.
+**Don't oversell.** The pitch is "you have a $200K business with $400-500K mechanics already in place - you just need the plumbing." That's an honest read. It's also exactly the right size to close.
 
 ---
 
@@ -85,7 +85,7 @@ This is a **fixable mid-sized creator**, not a huge whale.
 
 If asked "what would this do for me," your honest range:
 
-> "Conservatively, fixing the VSL gap and the cancellation leak alone tends to add 30-50% to held-call volume and 1-2 closes a month at the $4K tier. That's $4-8K/mo in net new revenue from the same top-of-funnel you already have. The content shift is a 90-day compound on top of that. We're not talking 10x — we're talking the difference between a $200K year and a $300K+ year, with the same audience."
+> "Conservatively, fixing the VSL gap and the cancellation leak alone tends to add 30-50% to held-call volume and 1-2 closes a month at the $4K tier. That's $4-8K/mo in net new revenue from the same top-of-funnel you already have. The content shift is a 90-day compound on top of that. We're not talking 10x - we're talking the difference between a $200K year and a $300K+ year, with the same audience."
 
 That framing gives him a number, ties it to mechanics he can verify, and doesn't promise the world.
 

@@ -1,4 +1,4 @@
-# DM Setting Playbook — Fixing the 4/9 Cancel Rate
+# DM Setting Playbook - Fixing the 4/9 Cancel Rate
 
 > The 44% cancellation rate is a calendar problem first, a setter problem second. This playbook fixes both. Designed to be handed to whoever is running DMs / inbound for Kit.
 
@@ -9,7 +9,7 @@
 A 44% cancel rate doesn't come from one cause. It comes from three small leaks compounding:
 
 1. **The form doesn't book the call.** Prospect submits. Time passes. Someone reaches out manually 6-24 hours later. By then, the prospect has cooled, gone on holiday, or remembered they were going to ghost.
-2. **No pre-call nurture.** Once a call is booked, there's no value-add between "booking" and "call" — so the prospect doesn't build commitment to showing up.
+2. **No pre-call nurture.** Once a call is booked, there's no value-add between "booking" and "call" - so the prospect doesn't build commitment to showing up.
 3. **The setter (if there is one) is pitching, not protecting the slot.** Setting calls has one job: confirm fit, protect the calendar slot, do not pitch. If the setter is selling, the prospect is half-sold and pre-objecting before the call.
 
 Each leak alone costs 10-15% of bookings. Stack them and you get 44% cancellations.
@@ -18,7 +18,7 @@ Each leak alone costs 10-15% of bookings. Stack them and you get 44% cancellatio
 
 ## The Three-Layer Fix
 
-### Layer 1 — Form-to-Calendar in One Click
+### Layer 1 - Form-to-Calendar in One Click
 
 **Current:** Prospect fills out application → form submits → prospect waits → setter reaches out manually → prospect picks a time.
 
@@ -39,26 +39,26 @@ Recommended: Option B. Two-week install max. No platform migration.
 - Required questions on booking: phone number (for SMS reminder), one screening question
 - Auto-confirmation email: ON, with a 90-second video from Kit (see Layer 2)
 
-### Layer 2 — Pre-Call Nurture Sequence
+### Layer 2 - Pre-Call Nurture Sequence
 
 Between booking and the call, three touches:
 
-#### Touch 1 — T-0 (the moment they book)
+#### Touch 1 - T-0 (the moment they book)
 
 **Channel:** Email + Calendly auto-confirmation
 **Content:** 60-90 second video from Kit, embedded.
 
 Video script:
 
-> "Hey — Kit here. Saw your application come through. Looking forward to our call on [date].
+> "Hey - Kit here. Saw your application come through. Looking forward to our call on [date].
 >
 > Quick thing before we talk. I want to make this useful for you, not just useful for me. So between now and then, just have a think about three things:
 >
-> One — what does the relationship you actually want look like? Specifics. Not 'a good guy.' What does a Tuesday night with him look like.
+> One - what does the relationship you actually want look like? Specifics. Not 'a good guy.' What does a Tuesday night with him look like.
 >
-> Two — what's been the gap between that and what you've been finding? Be honest with yourself.
+> Two - what's been the gap between that and what you've been finding? Be honest with yourself.
 >
-> Three — what do you think is in the way?
+> Three - what do you think is in the way?
 >
 > Bring those answers to the call. I'll show you what I see, and we'll figure out together if what I do is the right vehicle for getting you there.
 >
@@ -66,7 +66,7 @@ Video script:
 
 That video alone increases show rate by 15-25%. Reason: she's now seen Kit's face and voice before the call. She's committed.
 
-#### Touch 2 — T-1 day
+#### Touch 2 - T-1 day
 
 **Channel:** Email
 **Content:** A real client story, 250-400 words. Names a specific case study (real client, with permission), a real timeline, a real outcome. Closes with: "see you tomorrow."
@@ -85,22 +85,22 @@ Template:
 >
 > The thing that changed wasn't the volume of dates. It was the screen. She stopped accepting first dates that didn't pass a 10-minute fit check. Within six weeks, the type of man showing up was completely different.
 >
-> Tomorrow, that's the kind of work we'll be talking about — what does YOUR version of that look like.
+> Tomorrow, that's the kind of work we'll be talking about - what does YOUR version of that look like.
 >
 > See you at [time].
 >
-> — Kit
+> - Kit
 
-#### Touch 3 — T-morning (day of)
+#### Touch 3 - T-morning (day of)
 
 **Channel:** SMS
-**Content:** Short. "Hey [name] — Kit here. Looking forward to our chat at [time] today. Link is [Zoom/Meet]. See you in a bit."
+**Content:** Short. "Hey [name] - Kit here. Looking forward to our chat at [time] today. Link is [Zoom/Meet]. See you in a bit."
 
 SMS show-rate impact: +20% on top of email. Use it.
 
 ---
 
-### Layer 3 — Setter Playbook (If Kit Keeps a Setter)
+### Layer 3 - Setter Playbook (If Kit Keeps a Setter)
 
 If a setter is involved in qualifying inbound (DMs, form leads), they need rules. The current motion sounds unstructured.
 
@@ -118,7 +118,7 @@ After someone DMs interest or fills out a form, the setter asks ONLY:
 2. "What have you tried so far that hasn't worked?" (pain check)
 3. "What's making you reach out now, vs. six months ago or six months from now?" (urgency check)
 
-If the answers are decent, the setter says: "Sounds like Kit is the right person to talk to. Here's the calendar — pick a time."
+If the answers are decent, the setter says: "Sounds like Kit is the right person to talk to. Here's the calendar - pick a time."
 
 That's it. No pitching. No price discussion. No "let me tell you about the program."
 
@@ -127,16 +127,16 @@ That's it. No pitching. No price discussion. No "let me tell you about the progr
 - Quote price
 - Describe the program in detail
 - Sell features
-- "Convince" a hesitant lead — let them book or move on
+- "Convince" a hesitant lead - let them book or move on
 - Promise outcomes
-- Argue with objections — note the objection, send the calendar anyway, let Kit handle it on the call
+- Argue with objections - note the objection, send the calendar anyway, let Kit handle it on the call
 
 #### What the Setter SHOULD Do
 
 - Reply within 1 hour during business hours, 4 hours otherwise
 - Use first-name personalisation
 - Be direct, warm, not chirpy
-- Send the calendar link with a one-line cue: "Pick a time that works — Kit's blocked these slots out for serious applications this week"
+- Send the calendar link with a one-line cue: "Pick a time that works - Kit's blocked these slots out for serious applications this week"
 - After booking, hand off to the automated nurture sequence
 
 ---
@@ -145,11 +145,11 @@ That's it. No pitching. No price discussion. No "let me tell you about the progr
 
 These replace whatever the setter is currently using. They're calibrated to Kit's voice.
 
-### Template 1 — Inbound from Reel/Comment Engagement
+### Template 1 - Inbound from Reel/Comment Engagement
 
 > "Thanks for the message [name].
 >
-> Quick one — what's actually going on for you in your dating life right now?
+> Quick one - what's actually going on for you in your dating life right now?
 >
 > No long story needed. Just a sentence or two on where you're at."
 
@@ -157,33 +157,33 @@ Wait for response. Listen. Then:
 
 > "Got it. Sounds like you're at the point where you've tried the standard advice and you're done playing the volume game.
 >
-> Kit takes on a small number of 1:1 women each month. If you want to talk to him directly, here's the application — takes 4 minutes, then you can pick a time that works:
+> Kit takes on a small number of 1:1 women each month. If you want to talk to him directly, here's the application - takes 4 minutes, then you can pick a time that works:
 >
 > [APPLICATION LINK]
 >
-> If you're not at that stage, no worries — there's a course at slickwithkit.com that might be the better entry point."
+> If you're not at that stage, no worries - there's a course at slickwithkit.com that might be the better entry point."
 
-### Template 2 — Form Submitted, No Calendar Yet (Recovery for Existing Pipeline)
+### Template 2 - Form Submitted, No Calendar Yet (Recovery for Existing Pipeline)
 
-> "[Name] — saw your application come through. Took a quick look.
+> "[Name] - saw your application come through. Took a quick look.
 >
-> Want to get you in with Kit this week. Here's his calendar — pick a time:
+> Want to get you in with Kit this week. Here's his calendar - pick a time:
 >
 > [CALENDLY LINK]
 >
-> Answer a couple of questions before you book if you can — helps Kit show up prepared for you."
+> Answer a couple of questions before you book if you can - helps Kit show up prepared for you."
 
-### Template 3 — Booked but Quiet (24h Before Call)
+### Template 3 - Booked but Quiet (24h Before Call)
 
-> "[Name] — confirming you for [time] tomorrow with Kit.
+> "[Name] - confirming you for [time] tomorrow with Kit.
 >
 > Link is [Zoom/Meet link].
 >
-> If anything's changed and you need to reschedule, send me a message — much easier than no-showing."
+> If anything's changed and you need to reschedule, send me a message - much easier than no-showing."
 
-### Template 4 — Cancelled / Rescheduled
+### Template 4 - Cancelled / Rescheduled
 
-> "[Name] — no problem at all on the reschedule.
+> "[Name] - no problem at all on the reschedule.
 >
 > Here's the calendar with this week and next:
 >
@@ -191,13 +191,13 @@ Wait for response. Listen. Then:
 >
 > Want to get this sorted for you."
 
-### Template 5 — Ghost Recovery (3 Days After No-Show)
+### Template 5 - Ghost Recovery (3 Days After No-Show)
 
-> "[Name] — noticed you missed the call last [day]. No drama.
+> "[Name] - noticed you missed the call last [day]. No drama.
 >
 > If timing's just rough right now, send me a message and we'll find a slot that actually works.
 >
-> If you're rethinking it, also fine — would just rather know than wonder."
+> If you're rethinking it, also fine - would just rather know than wonder."
 
 ---
 

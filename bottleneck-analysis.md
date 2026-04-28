@@ -1,4 +1,4 @@
-# Bottleneck Analysis — Kit Esuruoso
+# Bottleneck Analysis - Kit Esuruoso
 
 > Three bottlenecks, ranked by revenue impact. Each one is observable, fixable, and has a 90-day ceiling. The order matters.
 
@@ -9,23 +9,23 @@
 - ~80-150K cross-platform reach
 - ~$15-25K/mo most-likely revenue (see `revenue-estimate.md`)
 - 9 sales calls/month booked, 4 cancelled (5 held)
-- 17 Trustpilot reviews in 2+ years — demand exists, plumbing leaks
+- 17 Trustpilot reviews in 2+ years - demand exists, plumbing leaks
 - VSL exists for the $500 course, NOT for the $4,000 1:1
-- Application form on the 1:1 has no calendar handoff (per user — verify live)
+- Application form on the 1:1 has no calendar handoff (per user - verify live)
 - Audience converts on "why he won't text me back" hooks while the offer is "find a high-quality man fast"
 
 The diagnosis writes itself: a creator with strong demand-generation, weak conversion mechanics, and a demo mismatch between hook and offer.
 
 ---
 
-## Bottleneck #1 — No VSL on the $4K Offer
+## Bottleneck #1 - No VSL on the $4K Offer
 
 **The asymmetry:** The $500 product has a VSL (`/cym-vsl`). The $4,000 product has a raw form. The funnel mechanics are inversely correlated with offer price.
 
 **Why it's costing him:**
 
 - High-ticket buyers need to feel certainty before they fill out a $4K application form. A VSL is the cheapest way to deliver that certainty at scale.
-- Cold prospects who land on the 1:1 page get zero pre-frame, zero proof, zero risk reversal — they either fill the form on raw conviction or bounce.
+- Cold prospects who land on the 1:1 page get zero pre-frame, zero proof, zero risk reversal - they either fill the form on raw conviction or bounce.
 - Conversion rate from page view → application is almost certainly under 1%. With a VSL it should be 3-7%.
 
 **The fix:**
@@ -46,7 +46,7 @@ The diagnosis writes itself: a creator with strong demand-generation, weak conve
 
 ---
 
-## Bottleneck #2 — Sales Process / Form-to-Nothing on the Highest-Value Step
+## Bottleneck #2 - Sales Process / Form-to-Nothing on the Highest-Value Step
 
 **The leak:** 4 of 9 calls cancelled last month. That's 44%.
 
@@ -70,7 +70,7 @@ The user's report ("Typeform, no automated call booking") matches the calendar p
 2. **Pre-call nurture sequence:**
    - T-0: Confirmation email + 60-90s personal video ("congrats, here's what we'll cover")
    - T-1 day: Case study email (real client, real timeline, real result)
-   - T-morning: SMS reminder ("see you at 3pm — link is here")
+   - T-morning: SMS reminder ("see you at 3pm - link is here")
 3. **Setter playbook (if he keeps a setter):** see `dm-setting-playbook.md` for the full version. Key rules: no pitching in DMs, single job is calendar protection, three qualifying questions.
 
 **Estimated impact:**
@@ -84,7 +84,7 @@ The user's report ("Typeform, no automated call booking") matches the calendar p
 
 ---
 
-## Bottleneck #3 — Demo Mismatch Between Hook and Offer
+## Bottleneck #3 - Demo Mismatch Between Hook and Offer
 
 **The contradiction:** His top-performing reels are "why he ghosted me" and "why he won't text back." His offer is a $4K package for "professional women 25+ who want a high-quality relationship."
 
@@ -103,7 +103,7 @@ Career-built women 30-45, founders, lawyers, doctors, ex-corporate, who can writ
 - 60-90 day pickup minimum
 - Requires content production shift, not just funnel mechanics
 - Compound effect on the next quarter, not this month
-- BUT — it's the lever that fills the funnel with $4K buyers indefinitely. Without it, every funnel improvement plateaus at the demo ceiling.
+- BUT - it's the lever that fills the funnel with $4K buyers indefinitely. Without it, every funnel improvement plateaus at the demo ceiling.
 
 **The fix (without burning his viral engine):**
 
@@ -140,13 +140,13 @@ If current revenue is ~$20K/mo, this stack realistically takes him to $30-38K/mo
 
 ---
 
-## Secondary Bottlenecks (Not in the Pitch — Save for the Build Phase)
+## Secondary Bottlenecks (Not in the Pitch - Save for the Build Phase)
 
 These are real, but you don't lead with them on the call. They're fix-it-while-you're-in-there items.
 
 1. **No lead magnet / quiz funnel.** He has 80-150K reach and almost no email list. A "What's your attachment style?" quiz would convert 10-25% of viewers to email subs. List grows by 1-2K/month from existing reach.
 2. **No retargeting pixel installed cleanly.** Squarespace makes pixel install fiddly. Probably half-broken or missing. Warm traffic walks away forever.
-3. **Bio link goes to homepage, not segmented.** No intent routing. Should be: free guide / podcast / course / 1:1 — separate paths.
+3. **Bio link goes to homepage, not segmented.** No intent routing. Should be: free guide / podcast / course / 1:1 - separate paths.
 4. **High ticket is underpriced.** $4K → $6-8K once VSL is in place and case studies stack. Pure margin expansion.
 5. **17 Trustpilot reviews in 2+ years** = he's not asking. Add a post-purchase review request. Brand credibility scales.
 6. **No paid ads.** Once organic funnel is plumbed, add Meta to scale predictable lead flow.
@@ -156,6 +156,6 @@ These are real, but you don't lead with them on the call. They're fix-it-while-y
 
 ## What This Adds Up To
 
-Kit's a creator with a working hook engine, real talent on camera, real demand in his audience, a real offer stack, and weak conversion mechanics. The pitch isn't "you're failing" — it's "you're operating a $200K business with $400-500K mechanics already in place, and you're missing the connective tissue."
+Kit's a creator with a working hook engine, real talent on camera, real demand in his audience, a real offer stack, and weak conversion mechanics. The pitch isn't "you're failing" - it's "you're operating a $200K business with $400-500K mechanics already in place, and you're missing the connective tissue."
 
 That's a clean pitch. It's also true.

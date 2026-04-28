@@ -1,4 +1,4 @@
-# Research — Kit Esuruoso (@stayslickwithkit)
+# Research - Kit Esuruoso (@stayslickwithkit)
 
 **Built:** 2026-04-28
 **Use:** D100 deliverable foundation + 3-way call prep
@@ -67,22 +67,22 @@ Could not pull verified per-reel like/view counts anonymously. Andrei should scr
 
 ---
 
-## Offer Stack — Validated and Flagged
+## Offer Stack - Validated and Flagged
 
-### Tier 1 (low) — Membership $27-50/mo
+### Tier 1 (low) - Membership $27-50/mo
 
 - User says exists. Public research found no Skool community.
 - Members area lives on `app.slickwithkit.com` = **Squarespace Member Areas**, not Skool.
 - **Verify on call:** does this tier exist, what's it called, where does it live, how many active members?
 
-### Tier 2 (mid) — "Claim Your Man" course at $500-700
+### Tier 2 (mid) - "Claim Your Man" course at $500-700
 
 - **Confirmed via VSL page at `/cym-vsl`.**
 - Reviewers describe it as "an excellent course... digestible... with summary PDFs."
 - Trustpilot 4.6 stars, 17 reviews, 100% 5-star.
 - Comparable pricing: Sabrina Zohar $349 (8-week), Stephan Speaks $497 (Single-to-Taken). Kit is at-market.
 
-### Tier 3 (high) — 1:1 coaching at ~$4,000
+### Tier 3 (high) - 1:1 coaching at ~$4,000
 
 - Application form at `/cta`.
 - User reports: form submits, no automatic call booking. Manual reach-out by setter/Kit. **This is the leak.**
@@ -100,7 +100,7 @@ Could not pull verified per-reel like/view counts anonymously. Andrei should scr
 
 ---
 
-## Funnel State — Every Gap
+## Funnel State - Every Gap
 
 | Element | State | Note |
 |---|---|---|
@@ -117,7 +117,7 @@ Could not pull verified per-reel like/view counts anonymously. Andrei should scr
 
 ### Gap summary (the pitch chain)
 
-1. No VSL on the $4K offer (#1 lever — fastest revenue)
+1. No VSL on the $4K offer (#1 lever - fastest revenue)
 2. Form-to-nothing on the highest-value step (explains 4/9 cancel rate)
 3. No lead magnet → list isn't growing despite ~80-150K reach
 4. No paid traffic → fully organic-dependent
@@ -136,7 +136,7 @@ Talking-head reels, 30-60s, strong on-camera presence (theatre training shows). 
 
 1. Ghosting (e.g. "Real Reason They Ghosted")
 2. Emotional unavailability
-3. Provocative gender takes ("Men Age Like Fine Wine" — 34.5K TikTok likes, his clearest viral)
+3. Provocative gender takes ("Men Age Like Fine Wine" - 34.5K TikTok likes, his clearest viral)
 4. Commitment anxiety / pulling away
 5. Modern dating chaos / app burnout
 
@@ -183,7 +183,7 @@ That's why the calls aren't wealthy enough. Fix in `content-strategy.md`.
 
 ---
 
-## Red Flags — None Major
+## Red Flags - None Major
 
 - No drama, scandal, scam allegations
 - No Reddit complainant thread
@@ -192,7 +192,7 @@ That's why the calls aren't wealthy enough. Fix in `content-strategy.md`.
 
 ### Minor notes for the build phase (not for the pitch)
 
-- "Featured in BBC" framing in IG bio is ambiguous. His BBC credit is the BBC Radio drama "Holding Esther" — an acting role, not a dating-expert appearance. Replace with verifiable media wins later.
+- "Featured in BBC" framing in IG bio is ambiguous. His BBC credit is the BBC Radio drama "Holding Esther" - an acting role, not a dating-expert appearance. Replace with verifiable media wins later.
 - Litecelebrities.com claims (age 20-25, $3-4M net worth) are content-farm fluff. Don't cite.
 - 17 Trustpilot reviews on a 2+ year operation = small customer pool. Frame internally as "demand without plumbing," not "weak proof."
 - Likely solo or with one VA. No visible agency. Perfect prospect profile.

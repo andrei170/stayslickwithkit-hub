@@ -1,4 +1,4 @@
-# Copy Strategy — Brand Voice + Messaging Framework
+# Copy Strategy - Brand Voice + Messaging Framework
 
 > The single source of truth for how Kit's brand sounds. Copywriting decisions for every funnel asset map back to this doc.
 
@@ -10,7 +10,7 @@
 
 Not corporate. Not motivational. Not "guru." Not chirpy.
 
-Picture a friend who happens to be very good at this — knows what he's talking about, isn't going to oversell, isn't going to flatter, will tell you the hard thing in a way that doesn't bruise.
+Picture a friend who happens to be very good at this - knows what he's talking about, isn't going to oversell, isn't going to flatter, will tell you the hard thing in a way that doesn't bruise.
 
 ### Voice anchors (Kit actually sounds like this)
 
@@ -35,7 +35,7 @@ Picture a friend who happens to be very good at this — knows what he's talking
 
 ## Audience Segments
 
-### Segment 1 — The Membership / Course Buyer
+### Segment 1 - The Membership / Course Buyer
 
 **Profile:** Woman 22-32, single 6-18 months, app-fatigued, frustrated with situationships.
 **State of mind:** Tired but still searching. Wants tactics. Open to belief shifts.
@@ -43,7 +43,7 @@ Picture a friend who happens to be very good at this — knows what he's talking
 **Hooks that work:** "Why he ghosted you," "If he wanted to, he would," "Stop falling for situationships," "How to text him back."
 **Tone:** Slightly more energetic. Punchier. Quick lessons.
 
-### Segment 2 — The 1:1 Buyer (the wealth target)
+### Segment 2 - The 1:1 Buyer (the wealth target)
 
 **Profile:** Woman 30-45, career-built, professional or founder, single 12+ months, has the means to pay £4K-7K, has been disappointed by surface dating advice.
 **State of mind:** Done with the volume game. Wants strategic, considered work. Has standards she's not willing to negotiate.
@@ -55,25 +55,25 @@ Picture a friend who happens to be very good at this — knows what he's talking
 
 ## Core Messaging Pillars
 
-### Pillar 1 — "Your standards aren't the problem"
+### Pillar 1 - "Your standards aren't the problem"
 
 The dating discourse has spent years telling successful women they're "too much," "intimidating," "should be more open." Kit's pillar #1 is the opposite: your standards are correctly calibrated. The problem is you've been auditioning for men instead of screening them.
 
 **Use in:** Track B reels, podcast topics, VSL hook, About page copy.
 
-### Pillar 2 — "The screen is the work"
+### Pillar 2 - "The screen is the work"
 
-Most dating advice is about getting more dates. Kit's mechanism is the opposite — getting fewer, better dates by installing a real screening process. By date three, the wrong men have ruled themselves out.
+Most dating advice is about getting more dates. Kit's mechanism is the opposite - getting fewer, better dates by installing a real screening process. By date three, the wrong men have ruled themselves out.
 
 **Use in:** Course sales page, 1:1 VSL solution segment, sample content.
 
-### Pillar 3 — "Date as well as you live"
+### Pillar 3 - "Date as well as you live"
 
 The single line that captures the brand's positioning for the wealth demo: women whose dating lives don't match the rest of their lives. Career-sorted. Friendships-sorted. Health-sorted. Dating? Chaos. The brand fixes the asymmetry.
 
 **Use in:** New bio line, About page headline, podcast tagline.
 
-### Pillar 4 — "12 weeks, by application, with me"
+### Pillar 4 - "12 weeks, by application, with me"
 
 The 1:1 is small, considered, hand-picked. Not a course. Not a group. Not a system. Direct access to Kit, structured over 12 weeks. The application keeps it small. The structure keeps it effective.
 
@@ -91,25 +91,25 @@ The 1:1 is small, considered, hand-picked. Not a course. Not a group. Not a syst
 
 ### For the 1:1 VSL page
 
-- "If your dating life doesn't match the rest of your life — read this."
+- "If your dating life doesn't match the rest of your life - read this."
 - "12-week 1:1 coaching for women who've outgrown the standard advice."
 - "The screen is the work. The dates are downstream. By application."
 
 ### For the course sales page
 
-- "Claim Your Man — the 8-week framework to find the right one without losing yourself."
+- "Claim Your Man - the 8-week framework to find the right one without losing yourself."
 - "Stop chasing. Start screening."
 - "The framework I use with private clients, available as a course."
 
 ### For the podcast
 
-- "Stay Slick with Kit — direct conversations with women who refuse to settle."
+- "Stay Slick with Kit - direct conversations with women who refuse to settle."
 - "What dating advice for adults actually sounds like."
 
 ### For lead magnet / quiz
 
-- "What kind of dater are you really? — 60-second quiz."
-- "The 10-minute fit check — used by every private client. Free PDF."
+- "What kind of dater are you really? - 60-second quiz."
+- "The 10-minute fit check - used by every private client. Free PDF."
 
 ---
 
@@ -155,7 +155,7 @@ Per project copy rules + Kit's brand specifically:
 - "queen"
 - "boss babe"
 - "girl, listen"
-- All em dashes (—) outside of sign-offs
+- All em dashes (-) outside of sign-offs
 - AI-style triple adjective lists ("smart, sharp, successful")
 - "Not just X but Y" structures (overused AI tell)
 
@@ -192,4 +192,4 @@ Before publishing any asset, run it through three checks:
 - No double exclamation marks
 - No "literally"
 - 1:1 voice (you / I), never "we" unless legitimately speaking for a team
-- Sign-offs: "— Kit" only, no extras
+- Sign-offs: "- Kit" only, no extras

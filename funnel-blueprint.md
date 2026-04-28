@@ -1,4 +1,4 @@
-# Funnel Blueprint — End-to-End for Kit
+# Funnel Blueprint - End-to-End for Kit
 
 > Full proposed funnel architecture. Drop into a 90-day install. Each piece is buildable independently if budget is staged.
 
@@ -12,13 +12,13 @@
                                   [Either /cym-vsl course funnel ----- works]
                                   [Or /cta application form ---------- LEAKS HERE]
                                                               ↓
-                                                     [Manual setter follow-up — slow]
+                                                     [Manual setter follow-up - slow]
                                                               ↓
                                                      [Some prospects book a call]
                                                               ↓
                                                   [44% cancel before showing up]
                                                               ↓
-                                                       [Held call — close ~1 in 3]
+                                                       [Held call - close ~1 in 3]
 ```
 
 Two paths. One works (course funnel). One leaks badly (1:1 funnel).
@@ -42,7 +42,7 @@ Two paths. One works (course funnel). One leaks badly (1:1 funnel).
                               ↓                         \
                    [Tier 1: Membership $39/mo OR Course $597] OR  [/1-1-vsl page]
                                                                         ↓
-                                                                  [VSL — 3-5 min]
+                                                                  [VSL - 3-5 min]
                                                                         ↓
                                                             [Application form embed]
                                                                         ↓
@@ -50,7 +50,7 @@ Two paths. One works (course funnel). One leaks badly (1:1 funnel).
                                                                         ↓
                                                               [Pre-call sequence: 3 touches]
                                                                         ↓
-                                                                  [Held call — Kit closes]
+                                                                  [Held call - Kit closes]
                                                                         ↓
                                                                   [1:1 onboarding flow]
 ```
@@ -75,7 +75,7 @@ Two paths. One works (course funnel). One leaks badly (1:1 funnel).
 
 ## Build Phases
 
-### Phase 1 — The Critical Plumbing (Weeks 1-3)
+### Phase 1 - The Critical Plumbing (Weeks 1-3)
 
 **Goal:** Stop the bleeding on the $4K funnel.
 
@@ -89,18 +89,18 @@ Two paths. One works (course funnel). One leaks badly (1:1 funnel).
 
 **Outcome:** $4K funnel converts. Cancel rate drops. Held calls per month +50%.
 
-### Phase 2 — Top-of-Funnel Capture (Weeks 4-7)
+### Phase 2 - Top-of-Funnel Capture (Weeks 4-7)
 
 **Goal:** Stop losing 80K-150K reach to a weak email capture.
 
-1. Build quiz funnel (e.g. "What's your dating archetype?") — 5-7 questions, results page, email gate
+1. Build quiz funnel (e.g. "What's your dating archetype?") - 5-7 questions, results page, email gate
 2. Build 10-day welcome flow (email sequence introducing Kit, Track A and Track B clips, course soft-pitch on day 7)
 3. Update bio link to a 3-route router: quiz / podcast / start
 4. Update IG content cadence to drive specific hooks to specific routes (Track A → quiz, Track B → 1:1)
 
 **Outcome:** Email list grows by 1-2K/month from existing reach. Course buyers from email +20-30%.
 
-### Phase 3 — Brand and Content Compound (Weeks 4-12, parallel)
+### Phase 3 - Brand and Content Compound (Weeks 4-12, parallel)
 
 **Goal:** Shift the audience demo over a quarter so the $4K funnel stays full of qualified buyers.
 
@@ -112,7 +112,7 @@ Two paths. One works (course funnel). One leaks badly (1:1 funnel).
 
 **Outcome:** Application form-fillers shift from 22-32 frustrated demo to 30-45 wealth demo. Close rate on $4K rises because the pre-sold buyer is qualified.
 
-### Phase 4 — Paid Traffic + Retargeting (Weeks 9-12+)
+### Phase 4 - Paid Traffic + Retargeting (Weeks 9-12+)
 
 **Goal:** Buy predictable lead flow on top of organic.
 
@@ -130,7 +130,7 @@ Two paths. One works (course funnel). One leaks badly (1:1 funnel).
 
 | Layer | Tool |
 |---|---|
-| Site (course funnel) | Squarespace (KEEP — works) |
+| Site (course funnel) | Squarespace (KEEP - works) |
 | Site (1:1 funnel) | Static HTML on Vercel/Netlify, OR Squarespace if integrated cleanly |
 | Application form | Tally or Typeform with redirect |
 | Calendar | Calendly or Cal.com |
@@ -181,8 +181,8 @@ That's a realistic 50-100% revenue lift in 90 days from same audience size.
 
 For the call, don't pitch the entire 4-phase plan. Pitch Phase 1 only.
 
-> "What I'd suggest is we start with the $4K funnel. Three weeks. We build the VSL page, fix the form, install the pre-call sequence. By week 4 you should see the cancellation rate drop and the held-call count go up. We measure for a month, then we either expand to the content shift and the quiz funnel, or we don't — your call.
+> "What I'd suggest is we start with the $4K funnel. Three weeks. We build the VSL page, fix the form, install the pre-call sequence. By week 4 you should see the cancellation rate drop and the held-call count go up. We measure for a month, then we either expand to the content shift and the quiz funnel, or we don't - your call.
 >
-> The whole point is you don't have to manage any of it. You film one VSL day. You record the case study video. After that, we build, we test, we report. You keep doing what you're doing — content, podcast, acting. We install."
+> The whole point is you don't have to manage any of it. You film one VSL day. You record the case study video. After that, we build, we test, we report. You keep doing what you're doing - content, podcast, acting. We install."
 
 That's the offer. Don't oversell.
