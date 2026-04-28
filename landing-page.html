@@ -10,9 +10,11 @@
 <meta property="og:description" content="12 weeks of private work for women whose dating lives don't match the rest of their lives.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://andrei170.github.io/stayslickwithkit-landing/">
-<meta property="og:image" content="https://andrei170.github.io/stayslickwithkit-hub/og-image.svg">
+<meta property="og:image" content="https://andrei170.github.io/stayslickwithkit-hub/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Analytics: Plausible (sign up at plausible.io, replace data-domain below). Comment block out if not using. -->
+<script defer data-domain="andrei170.github.io" src="https://plausible.io/js/script.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -294,12 +296,6 @@
       radial-gradient(circle at 30% 20%, rgba(212, 175, 108, 0.14), transparent 55%),
       linear-gradient(160deg, #14110f 0%, #0a0908 100%);
     border: 1px solid var(--border-strong);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 24px;
     position: relative;
     overflow: hidden;
   }
@@ -310,7 +306,58 @@
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--gold), transparent);
     opacity: 0.5;
+    z-index: 2;
   }
+  .about-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    filter: contrast(1.04) brightness(0.95);
+  }
+  .about-photo::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 50%, rgba(5, 7, 12, 0.55) 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+  .about-photo .photo-caption {
+    position: absolute;
+    bottom: 18px;
+    left: 22px;
+    right: 22px;
+    z-index: 3;
+    text-align: left;
+  }
+  .about-photo .photo-caption .name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+  }
+  .about-photo .photo-caption .role {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .about-photo-fallback {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 24px;
+  }
+  .about-photo.fallback img,
+  .about-photo.fallback::after,
+  .about-photo.fallback .photo-caption { display: none; }
+  .about-photo.fallback .about-photo-fallback { display: flex; }
   .about-photo .monogram {
     font-family: 'Cormorant Garamond', serif;
     font-size: 130px;
@@ -321,14 +368,14 @@
     margin-bottom: 12px;
     letter-spacing: -0.04em;
   }
-  .about-photo .name {
+  .about-photo .name-fallback {
     font-family: 'Inter', sans-serif;
     font-size: 11px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--text-secondary);
   }
-  .about-photo .role {
+  .about-photo .role-fallback {
     font-family: 'Cormorant Garamond', serif;
     font-size: 14px;
     font-style: italic;
@@ -629,10 +676,17 @@
 <section class="reveal">
   <div class="container">
     <div class="about-section">
-      <div class="about-photo">
-        <div class="monogram">K</div>
-        <div class="name">Kit Esuruoso</div>
-        <div class="role">London &middot; By application</div>
+      <div class="about-photo" id="aboutPhoto">
+        <img src="kit-headshot.jpg" alt="Kit Esuruoso" loading="lazy" onerror="document.getElementById('aboutPhoto').classList.add('fallback');">
+        <div class="photo-caption">
+          <div class="name">Kit Esuruoso</div>
+          <div class="role">London &middot; By application</div>
+        </div>
+        <div class="about-photo-fallback">
+          <div class="monogram">K</div>
+          <div class="name-fallback">Kit Esuruoso</div>
+          <div class="role-fallback">London &middot; By application</div>
+        </div>
       </div>
       <div class="about-content">
         <div class="section-label">About Kit</div>
