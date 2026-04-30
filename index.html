@@ -68,7 +68,21 @@
   .future-pace strong{color:var(--loss-red-bright);font-weight:600;font-style:normal}
   .future-pace .pace-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--loss-red-bright);font-weight:600;font-style:normal;display:inline-block;margin-right:6px}
   .bot-card .impact{margin-top:18px;padding-top:18px;border-top:1px solid var(--border);font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--gold-bright);font-style:italic;line-height:1.5}
-  .deliverables-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px;align-items:start}
+  .deliverable-featured{margin-top:32px;margin-bottom:18px;padding:0;background:var(--bg-card);border:1px solid var(--border-strong);border-radius:3px;backdrop-filter:blur(8px);overflow:hidden;display:grid;grid-template-columns:1.2fr 1fr;gap:0;transition:all 0.3s ease}
+  @media(max-width:760px){.deliverable-featured{grid-template-columns:1fr}}
+  .deliverable-featured:hover{transform:translateY(-2px)}
+  .deliverable-featured .featured-thumb-wrap{position:relative;overflow:hidden;border-right:1px solid var(--border)}
+  @media(max-width:760px){.deliverable-featured .featured-thumb-wrap{border-right:0;border-bottom:1px solid var(--border)}}
+  .deliverable-featured .featured-thumb{width:100%;height:100%;display:block;object-fit:cover;object-position:top center;aspect-ratio:16/10;transition:transform 0.4s ease}
+  .deliverable-featured:hover .featured-thumb{transform:scale(1.03)}
+  .deliverable-featured .featured-overlay{position:absolute;bottom:0;left:0;right:0;padding:10px 14px;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.85));font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);text-align:center;font-weight:600}
+  .deliverable-featured .featured-info{padding:32px 30px;display:flex;flex-direction:column;justify-content:center}
+  .deliverable-featured .tag{display:inline-block;padding:4px 12px;background:var(--gold);color:var(--bg-deep);border-radius:2px;font-size:10px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;margin-bottom:14px;align-self:flex-start}
+  .deliverable-featured h3{font-size:26px;margin-bottom:12px;color:var(--text-primary);font-weight:500}
+  .deliverable-featured p{color:var(--text-secondary);font-size:14px;line-height:1.7;margin-bottom:18px}
+  .deliverable-featured .view-link{color:var(--gold);font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;border-top:1px solid var(--border);padding-top:14px;margin-top:auto;align-self:flex-start;width:100%}
+  .deliverable-featured .view-link:hover{color:var(--gold-bright)}
+  .deliverables-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px;align-items:start;grid-auto-rows:min-content}
   @media(max-width:900px){.deliverables-grid{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:600px){.deliverables-grid{grid-template-columns:1fr}}
   .del-card{padding:26px 22px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;backdrop-filter:blur(8px);transition:all 0.3s ease;display:flex;flex-direction:column}
@@ -236,18 +250,20 @@
 <h2 class="section-title">Everything I built for you, <em>in one place.</em></h2>
 <p class="section-sub">Eight deliverables. The working assets are ready to install; the strategy docs explain the why. Sample Landing Page is the headliner - everything else feeds it.</p>
 
-<div class="deliverables-grid">
-<div class="del-card featured">
-<a href="landing-page.html" target="_blank" class="preview-thumb-link">
-<img src="proof/landing-preview.png?v=3" alt="Stay Slick With Kit landing page preview" class="preview-thumb">
-<div class="preview-overlay">Click to View Live Preview</div>
-</a>
+<a href="landing-page.html" target="_blank" class="deliverable-featured">
+<div class="featured-thumb-wrap">
+<img src="proof/landing-preview.png?v=4" alt="Stay Slick With Kit landing page preview" class="featured-thumb">
+<div class="featured-overlay">Click to View Live Preview</div>
+</div>
+<div class="featured-info">
 <span class="tag">Working Asset</span>
 <h3>Sample Landing Page</h3>
-<p>HTML, mobile-responsive, ready to deploy. The Stay Slick With Kit offer page with VSL embed and Typeform application live.</p>
-<a href="landing-page.html" target="_blank">View Full Page →</a>
+<p>HTML, mobile-responsive, ready to deploy. The Stay Slick With Kit offer page with VSL embed and Typeform application live. This is the headliner of the package - everything else feeds it.</p>
+<span class="view-link">View Full Page →</span>
 </div>
+</a>
 
+<div class="deliverables-grid">
 <div class="del-card">
 <span class="tag">Phase 1</span>
 <h3>VSL Preview Script</h3>
